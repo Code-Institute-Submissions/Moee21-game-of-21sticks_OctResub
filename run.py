@@ -14,7 +14,7 @@ print("The way you win is by not taking the last stick \n")
 print("Total Sticks:", STICKS, "\n")
 
 while STICKS > 1:  # Program will run till sticks are greater than 1
-    user = int(input("User(1,2,3,4): ")) # User input int numbers from 1-4
+    user = int(input("User(1,2,3,4): "))   # User input int numbers from 1-4
 
     user_turn = False  # setting user var to False means next turn is computer's
     STICKS -= user
