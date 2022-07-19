@@ -31,3 +31,9 @@ while STICKS > 1:  # Program will run till sticks are greater than 1
         print("Invalid input. Please try again.")
         user = int(input("User(1,2,3,4): "))
 
+if user_turn:  # if user_turn is True means next turn is user's
+    print("User Lost")
+
+else:       # If it is False means next turn is computer's
+    print("Computer lost")  
+    # This condition will never be triggered since computer will never lose.  
