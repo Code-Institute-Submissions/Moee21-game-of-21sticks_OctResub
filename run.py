@@ -3,7 +3,7 @@ got idea and inspiration from:
 https://www.youtube.com/watch?v=ReQz7vwDjPs&ab_channel=NickyDylewski
 https://www.youtube.com/watch?v=SdrSEq_dsBU&t=326s&ab_channel=3ATeam
 """
-import time          # Time module allowing user and the computer take time of 2sec when he is prompted to give input
+import time          
 STICKS = 21          # Total number of match sticks
 print("Welcome to 21 MatchSticks Game.\n")
 
@@ -26,6 +26,11 @@ while STICKS > 1:  # Program will run till sticks are greater than 1
     STICKS -= user
     print("Sticks left: ", STICKS, "\n")
     time.sleep(2)
+         """
+         sleep function allowing the user and the computer to take time 
+         of 2 seconds when they are prompted to give their int value
+         """
+
     computer = 5 - user   # Computer's choice
     print("Computer: ", computer)
 
