@@ -3,9 +3,8 @@ got idea and inspiration from:
 https://www.youtube.com/watch?v=ReQz7vwDjPs&ab_channel=NickyDylewski
 https://www.youtube.com/watch?v=SdrSEq_dsBU&t=326s&ab_channel=3ATeam
 """
-
+import time          # Time module allowing user and the computer take time of 2sec when he is prompted to give input
 STICKS = 21          # Total number of match sticks
-
 print("Welcome to 21 MatchSticks Game.\n")
 
 print("This program is a game which you will play against the computer.")
@@ -26,7 +25,7 @@ while STICKS > 1:  # Program will run till sticks are greater than 1
     # setting user var to False means next turn is computer's
     STICKS -= user
     print("Sticks left: ", STICKS, "\n")
-
+    time.sleep(2)
     computer = 5 - user   # Computer's choice
     print("Computer: ", computer)
 
