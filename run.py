@@ -15,22 +15,26 @@ print("So let us begin with the game! \n")
 print("Total Sticks:", STICKS, "\n")
 
 while STICKS > 1:  # Program will run till sticks are greater than 1
-    user = int(input("User(1,2,3,4): "))   # User input int numbers from 1-4
+    try:
+        user = int(input("User(1,2,3,4): "))    
+        """
+        User input int numbers from 1 to 4
+        """
+        if user not in [1, 2, 3, 4]:
+            print("Invalid input. Please try again.")
+            user = int(input("User(1,2,3,4): \n"))
+    except:
+        print("You can only enter One Numeric Value.")
+        user = int(input("Please, Enter again Value one number from 1-4."))
 
-    while user not in [1, 2, 3, 4]:
-        print("Invalid input. Please try again.")
-        user = int(input("User(1,2,3,4): \n"))
-
-    user_turn = False  
-    # setting user var to False means next turn is computer's
+    user_turn = False  # setting user var to False means next turn is computer's
     STICKS -= user
     print("Sticks left: ", STICKS, "\n")
     time.sleep(2)
-         """
-         sleep function allowing the user and the computer to take time 
-         of 2 seconds when they are prompted to give their int value
-         """
-
+    """
+    sleep function allowing the user and the computer to take time 
+    of 2 seconds when they are prompted to give their int value
+    """
     computer = 5 - user   # Computer's choice
     print("Computer: ", computer)
 
