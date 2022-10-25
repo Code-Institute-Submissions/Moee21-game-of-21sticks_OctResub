@@ -6,10 +6,12 @@ https://www.youtube.com/watch?v=SdrSEq_dsBU&t=326s&ab_channel=3ATeam
 
 STICKS = 21          # Total number of match sticks
 
-print("This program is a game which you will play against the computer")
-print("In this game there are 21 sticks and")
-print("you have to pick up 1-4 number of sticks each turn ")
-print("The way you win is by not taking the last stick \n")
+print("Welcome to 21 MatchSticks Game.\n")
+
+print("This program is a game which you will play against the computer.")
+print("You could only win if you are not left with last 1 stick.")
+print("Please, enter One Number from 1-4 of sticks at each turn.")
+print("So let us begin with the game! \n")
 
 print("Total Sticks:", STICKS, "\n")
 
