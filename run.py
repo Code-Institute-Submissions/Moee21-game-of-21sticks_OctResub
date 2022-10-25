@@ -23,7 +23,7 @@ while STICKS > 1:  # Program will run till sticks are greater than 1
         if user not in [1, 2, 3, 4]:
             print("Invalid input. Please try again.")
             user = int(input("User(1,2,3,4): \n"))
-    except:
+    except ValueError:
         print("You can only enter One Numeric Value.")
         user = int(input("Please, Enter again Value one number from 1-4."))
 
