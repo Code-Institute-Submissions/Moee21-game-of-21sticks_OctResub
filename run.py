@@ -16,7 +16,7 @@ print("Total Sticks:", STICKS, "\n")
 
 while STICKS > 1:  # Program will run till sticks are greater than 1
     try:
-        user = int(input("User(1,2,3,4): "))
+        user = int(input("User(1,2,3,4):\n"))
         """
         User input int numbers from 1 to 4
         """
