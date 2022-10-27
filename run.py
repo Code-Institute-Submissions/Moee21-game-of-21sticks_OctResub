@@ -9,7 +9,7 @@ print("Welcome to 21 MatchSticks Game.\n")
 
 print("This program is a game which you will play against the computer.")
 print("You could only win if you are not left with last 1 stick.")
-print("Please, enter One Number from 1-4 of sticks at each turn.")
+print("Please, enter One Number from 1 - 4 of sticks at each turn.")
 print("So let us begin with the game! \n")
 
 print("Total Sticks:", STICKS, "\n")

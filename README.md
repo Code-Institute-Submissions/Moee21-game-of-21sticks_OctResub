@@ -1,31 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 21 MatchSticks Game
 
-Welcome Moee21,
+21 MatchSticks is a Python terminal game,which runs on Heroki.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+Users can try to beat the computer by picking numbers from one to four at each round and only can win if the users are kept from the last stick.
 
-## Reminders
+[Here is the live version of my project](https://game-of-21sticks.herokuapp.com/)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/am%20i%20responsive%20image.png)
 
-## Creating the Heroku app
+## How to play
+#
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* There are 21 matchsticks.
+* The computer asks the player to pick 1, 2, 3, or 4     matchsticks.
+* After the person picks, the customer does its picking.
+* Whoever is forced to pick up the last matchstick loses the game.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Features
+#
+![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/start%20of%20the%20game.png)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* The player will not see what number the computer picks.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/play%20against%20the%20computer.png)
 
-Connect your GitHub repository and deploy as normal.
+* Play against the computer
+* Accepts user input
 
-## Constraints
+![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/entering%20some%20incorrect%20data%20twice.png)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+* Input validation and error-checking
+   * The user must enter values ranging between 1-4. if the user enters any value less than 1 or greater than 4 then a message is displayed: invalid input and again the input is taken from user ranging between 1-4.
+   * The user must enter only int value. if the user enters some string either empty or with some value, then a message 'you can only enter numeric values' is displayed and the input is taken again from the user.
 
------
-Happy coding!
+## Testing
+#
+I have manually tested this project by:
+  * Passed the code through https://www.pythonchecker.com/ and confirmed there are no problems.
+
+## Validator Testing
+#
+  * pythonchecker
+    * No errors were returned from https://www.pythonchecker.com/
+
+## Deployment 
+#
+ * Steps for deployment:
+   * Fork or clone this repository
+   * Create a new Heroku app
+   * Set the buildbacks to Python and NodeJS in that order
+   * Link the Heroku app to the repository
+   * Click on Deploy
+
+## Credits 
+#
+  * Code Institute for the deployment terminal
+  * The idea and inspiration to make this game was taken from:
+https://www.youtube.com/watch?v=ReQz7vwDjPs&ab_channel=NickyDylewski
+https://www.youtube.com/watch?v=SdrSEq_dsBU&t=326s&ab_channel=3ATeam
+
