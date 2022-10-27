@@ -6,6 +6,8 @@ Users can try to beat the computer by picking numbers from one to four at each r
 
 [Here is the live version of my project](https://game-of-21sticks.herokuapp.com/)
 
+<img src ="assets/images/am%20i%20responsive%20image.png" width ="600">
+
 ![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/am%20i%20responsive%20image.png)
 
 ## How to play
@@ -18,14 +20,21 @@ Users can try to beat the computer by picking numbers from one to four at each r
 
 ## Features
 #
+
+<img src ="assets/images/start%20of%20the%20game.png" width="600">
+
 ![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/start%20of%20the%20game.png)
 
 * The player will not see what number the computer picks.
+
+<img src ="assets/images/play%20against%20the%20computer.png" width ="600">
 
 ![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/play%20against%20the%20computer.png)
 
 * Play against the computer
 * Accepts user input
+
+<img src ="assets/images/entering%20some%20incorrect%20data%20twice.png" width ="600">
 
 ![](vscode-remote://moee21-gameof21sticks-vy2ku7asxtc.ws-eu72.gitpod.io/workspace/game-of-21sticks/assets/images/entering%20some%20incorrect%20data%20twice.png)
 
